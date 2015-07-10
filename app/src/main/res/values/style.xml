@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="textviewstyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#00FF00</item>
+		<item name="android:background">#FF0000</item>
+	</style>
+
+	<style name="DefaultTheme">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:colorForeground">#000000</item>
+		<item name="android:windowFrame">@null</item>
+	</style>
+
+	<style name="dialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item><!--边框-->
+		<item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+		<item name="android:windowIsTranslucent">true</item><!--半透明-->
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:backgroundDimEnabled">true</item><!--模糊-->
+	</style>
+	
+	<!-- load progress -->
+    <style name="ProgressLoad">
+       <item name="android:indeterminateDrawable">@drawable/anim_progress_load</item>
+	　　<item name="android:minWidth">48dip</item>
+	　　<item name="android:maxWidth">48dip</item>
+	　　<item name="android:minHeight">48dip</item>
+	　　<item name="android:maxHeight">48dip</item>
+    </style>
+	
+	 <!-- 自定义进度对话框 -->
+    <style name="CustomProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+	<style name="theme.translucent" parent="android:style/Theme.Translucent">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:colorForeground">#c0c0c0ff</item>
+	</style>
+
+	<style name="PopupAnimation" parent="android:Animation">
+		<item name="android:windowEnterAnimation">@anim/right_fade_in</item>
+		<item name="android:windowExitAnimation">@anim/right_fade_out</item>
+	</style>
+</resources>

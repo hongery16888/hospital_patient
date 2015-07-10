@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="darkgray">#F03215</drawable>
+  <drawable name="white">#FFFFFF</drawable>
+  <drawable name="blue">#0000FF</drawable>
+  
+  <drawable name="lightred">#90FF0000</drawable>
+  <drawable name="lightgray">#90505050</drawable>
+  <drawable name="lightgreen">#00FF0D</drawable>
+  <drawable name="lightyellow">#FFFFE0</drawable>  
+ 
+  <color name="black">#000000</color>
+  <color name="white">#FFFFFF</color>
+  <color name="red">#f00</color>
+  <color name="blue">#0000ff</color>
+  <color name="green">#f0f0</color>
+  <color name="main_back_ground_color">#ffffff00</color>
+  <color name="transparent">#00000000</color>
+  <color name="grey">#bfbfbf</color>
+
+  <color name="top_bar_bg">#2e2624</color>
+</resources>

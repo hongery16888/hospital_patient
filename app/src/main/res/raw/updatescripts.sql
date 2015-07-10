@@ -1,0 +1,1 @@
+alter table table_name add COLUMN  address  [varchar](100) NULL;
