@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/iori/hpatient/activity/base/BasePager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/iori/hpatient/adapter/ViewPagerAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/iori/hpatient/view/LazyViewPager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/iori/hpatient/view/MyViewPager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_selector1.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_selector2.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_selector3.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/tab_selector4.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/textcolor_selected.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

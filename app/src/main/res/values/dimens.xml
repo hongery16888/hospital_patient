@@ -3,10 +3,24 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <!-- default -->
+    <dimen name="zero_dip">0dip</dimen>
+    <dimen name="one_dip">1dip</dimen>
+    <dimen name="two_dip">2dip</dimen>
+    <dimen name="one_px">1px</dimen>
+    <dimen name="five_dip">5dip</dimen>
+
+    <!-- title bar -->
     <dimen name="title_lefticon_width">42dp</dimen>
     <dimen name="top_bar_h" >50dip</dimen>
     <dimen name="title_size">20sp</dimen>
     <dimen name="title_bar_default_margin">8dp</dimen>
     <dimen name="title_bar_img_margin_outside">12dp</dimen>
     <dimen name="register_size">18sp</dimen>
+
+    <!-- bottom bar -->
+    <dimen name="bottom_bar_h">60dip</dimen>
+    <dimen name="bottom_bar_img_w">30dip</dimen>
+    <dimen name="bottom_bar_img_h">30dip</dimen>
+    <dimen name="bottom_padding">-5dip</dimen>
 </resources>

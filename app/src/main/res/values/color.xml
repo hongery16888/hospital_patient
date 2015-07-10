@@ -18,5 +18,10 @@
   <color name="transparent">#00000000</color>
   <color name="grey">#bfbfbf</color>
 
+  <!-- title bar and bottom bar bg -->
   <color name="top_bar_bg">#2e2624</color>
+  <color name="bottom_bar_bg">#2e2624</color>
+  <color name="bottom_textcolor_check">#838383</color>
+  <color name="bottom_textcolor_checked">#fff</color>
+
 </resources>

@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">HPatient</string>
     <string name="network_error">网络连接失败</string>
+
+    <!-- bottom bar item -->
+    <string name="btn_index">首页</string>
+    <string name="btn_shopping">中间</string>
+    <string name="btn_activity">无名</string>
+    <string name="btn_mine">我的</string>
 </resources>

@@ -14,4 +14,58 @@
         android:layout_gravity="center_horizontal"
         android:textColor="@color/black" />
 
+    <view
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_dip"
+        android:layout_weight="1.0"
+        class="iori.hpatient.view.MyViewPager" />
+
+    <RadioGroup
+        android:id="@+id/main_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bottom_bar_h"
+        android:layout_gravity="bottom"
+        android:background="@color/bottom_bar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/two_dip" >
+
+        <RadioButton
+            android:id="@+id/index_main"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_selector1"
+            android:drawablePadding="@dimen/bottom_padding"
+            android:layout_marginBottom="@dimen/bottom_padding"
+            android:text="@string/btn_index"
+            android:textColor="@drawable/textcolor_selected"/>
+
+        <RadioButton
+            android:id="@+id/shopping_main"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_selector2"
+            android:drawablePadding="@dimen/bottom_padding"
+            android:layout_marginBottom="@dimen/bottom_padding"
+            android:text="@string/btn_shopping"
+            android:textColor="@drawable/textcolor_selected"/>
+
+        <RadioButton
+            android:id="@+id/activity_main"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_selector3"
+            android:drawablePadding="@dimen/bottom_padding"
+            android:layout_marginBottom="@dimen/bottom_padding"
+            android:text="@string/btn_activity"
+            android:textColor="@drawable/textcolor_selected"/>
+
+        <RadioButton
+            android:id="@+id/personal_main"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/tab_selector4"
+            android:drawablePadding="@dimen/bottom_padding"
+            android:layout_marginBottom="@dimen/bottom_padding"
+            android:text="@string/btn_activity"
+            android:textColor="@drawable/textcolor_selected"/>
+    </RadioGroup>
+
 </LinearLayout>
